@@ -1,0 +1,109 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .4s ease;
+}
+
+/* custom variables */
+:root {
+    --color-bg: #ecedee;
+    --color-black-100: rgba(0, 0, 0, 0.3);
+    --color-black-200: #262626;
+    --color-brown-100: #978457;
+    --color-brown-200: #825d3c;
+    --color-light-100: #fff;
+    --color-light-200: #dcd9d6;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-bg);
+    overflow-x: hidden;
+}
+
+section {
+    padding: 3rem 9%;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-weight: 500;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+img {
+    display: block;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5rem 0;
+}
+
+.heading h5 {
+    color: var(--color-black-200);
+    font-size: 1.1rem;
+}
+
+.heading h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-brown-200);
+}
+
+.btn {
+    display: inline-block;
+    padding: .8rem 1.6rem;
+    background: transparent;
+    border: .1rem solid var(--color-brown-200);
+    border-radius: .5rem;
+    color: var(--color-black-200);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--color-brown-100);
+    color: var(--color-light-100);
+}
+
+.btn-primary {
+    background-color: var(--color-brown-200);
+    color: var(--color-light-100);
+}
+
+/* media queries */
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+
+    section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width:480px) {
+    html {
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,51 @@
+.project__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.project__box {
+    padding: 2rem;
+    background-color: var(--color-light-200);
+    box-shadow: 0 .4rem .8rem var(--color-black-100);
+    border-radius: 2rem;
+}
+
+.project__box:hover {
+    background: var(--color-bg);
+    border: .1rem solid var(--color-brown-200);
+}
+
+.project__box .image {
+    overflow: hidden;
+    height: 25rem;
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.project__box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project__box .image img:hover {
+    transform: scale(1.1);
+}
+
+.project__box p {
+    font-size: 1.5rem;
+    color: var(--color-black-200);
+    line-height: 1.6;
+}
+
+.project__box .cta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: .7rem;
+}
+
+.project__box .cta a {
+    white-space: nowrap;
+}

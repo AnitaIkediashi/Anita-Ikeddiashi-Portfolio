@@ -1,0 +1,38 @@
+footer {
+    background-color: #464134;
+    padding: 3rem 0 10rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 2rem;
+    color: var(--color-light-100);
+    margin-bottom: .5rem;
+}
+
+footer .links {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: .8rem;
+}
+
+.links a {
+    display: flex;
+    padding: .8rem;
+    border-radius: 50%;
+    color: var(--color-light-200);
+    border: .1rem solid var(--color-light-200);
+    font-size: 1.5rem;
+}
+
+.links a:hover {
+    background-color: var(--color-brown-100);
+}
+
+footer small {
+    font-size: 1rem;
+    color: var(--color-light-200);
+}
+
