@@ -12,46 +12,46 @@ const data = [
   {
     id: 1,
     image: ME1,
-    para: 'A restaurant food ordering website designed using pure HTML, CSS, JavaScript and swiper js.',
-    repo: 'https://github.com/AnitaIkediashi/Dominos-Food-Restaurant-Landing-Page.git',
-    link: 'https://anitaikediashi.github.io/Dominos-Food-Restaurant-Landing-Page/anitaproject/index.html'
+    para: "A gym website built with React js and react router dom library package",
+    repo: "https://github.com/AnitaIkediashi/Gym-website.git",
+    link: "https://gym-website-dusky.vercel.app/",
   },
   {
     id: 2,
     image: ME2,
-    para: 'Beatz E-commerce website project using Vanilla HTML, CSS and JavaScript.',
-    repo: 'https://github.com/AnitaIkediashi/Beatz-E-commerce-Project.git',
-    link: 'https://anitaikediashi.github.io/Beatz-E-commerce-Project/index.html'
+    para: "Beatz E-commerce website project using Vanilla HTML, CSS and JavaScript.",
+    repo: "https://github.com/AnitaIkediashi/Beatz-E-commerce-Project.git",
+    link: "https://anitaikediashi.github.io/Beatz-E-commerce-Project/index.html",
   },
   {
     id: 3,
     image: ME3,
-    para: 'A music blog website created and designed using vanilla HTML, CSS and JavaScript with swiper js.',
-    repo: 'https://github.com/AnitaIkediashi/80s-jam-music-website.git',
-    link: 'https://anitaikediashi.github.io/80s-jam-music-website/index.html'
+    para: "A cryptocurrency website for news updates and market exchange integrated with coingecko API and axios for fetching its data. Added with registration and login validation from Localstorage for users, with React router for creating private routes for non users.",
+    repo: "https://github.com/AnitaIkediashi/iCrypto.git",
+    link: "https://icrypto.vercel.app/",
   },
   {
     id: 4,
     image: ME4,
-    para: 'A photography website design using vanilla html, css and JavaScript with Bootstrap 5 and lightbox js.',
-    repo: 'https://github.com/AnitaIkediashi/J-and-J-Photography-Website.git',
-    link: 'https://anitaikediashi.github.io/J-and-J-Photography-Website/home.html'
+    para: "A business website built with React js and react router dom",
+    repo: "https://github.com/AnitaIkediashi/gcet-prototype.git",
+    link: "https://gcet-prototype.vercel.app/",
   },
   {
     id: 5,
     image: ME5,
-    para: 'A remake of J and J Photography using html, tailwind css, JavaScript, swiper js and lightgallery js.',
-    repo: 'https://github.com/AnitaIkediashi/Quest-Photography.git',
-    link: 'https://anitaikediashi.github.io/Quest-Photography/src/index.html'
+    para: "A food Ordering App designed using react js, redux and redux toolkit, firebase, stripe, framer motion and toastify.",
+    repo: "https://github.com/AnitaIkediashi/AfriDishes-frontend.git",
+    link: "https://afridishes-frontend.onrender.com/",
   },
   {
     id: 6,
     image: ME6,
-    para: 'A tour agency website designed using sass with tilt js and aos.',
-    repo: 'https://github.com/AnitaIkediashi/nigeria-tour-and-guide-website.git',
-    link: 'https://anitaikediashi.github.io/nigeria-tour-and-guide-website/'
-  }
-]
+    para: "A blog CRUD app built with react js, firebase, tailwindCSS, Framer motion, react toastify, and react router dom",
+    repo: "https://github.com/AnitaIkediashi/blog-crud-app.git",
+    link: "https://blog-crud-app.vercel.app/",
+  },
+];
 
 const Features = () => {
   return (

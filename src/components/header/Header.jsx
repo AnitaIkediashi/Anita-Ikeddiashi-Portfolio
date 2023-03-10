@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/CV.pdf'
 import ME from '../../assets/me.png'
 
 const Header = () => {
